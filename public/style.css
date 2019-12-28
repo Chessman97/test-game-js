@@ -1,0 +1,80 @@
+#scene
+{
+    margin: 50px;
+}
+#player,#bullet,#enemy,#text
+{
+    margin: -500px auto 0px;
+    margin-left: 50px;
+}
+#pause
+{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 883px;
+}
+#exit
+{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 753px;
+}
+#start
+{
+    position: absolute;
+    margin-top: 269px;
+    margin-left: 591px;
+    cursor: pointer;
+}
+
+#choose_weapon
+{
+    position: absolute;
+    margin-top: 299px;
+    margin-left: 591px;
+    cursor: pointer;
+}
+.preview
+{
+    background-color: #aaa;
+    border-radius: 6px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    color: #003300;
+}
+.display_none
+{
+    display: none;
+}
+#list_weapon
+{
+    background: rgba(205, 214, 219, 0.7);
+    min-height: 80px;
+    min-width: 166px;
+    position: absolute;
+    margin-top: 329px;
+    margin-left: 564px;
+    border-radius: 5px;
+    list-style: none;
+    text-align: center;
+	padding-bottom:20px;
+}
+#list_weapon::before
+{
+    content: ''; /* Выводим треугольник */
+    top: -20px; /* Положение треугольника */
+    /* Создание треугольника */
+    width: 0; height: 0;
+    border-style: solid;
+    border-width: 10px;
+    border-color: transparent transparent  rgba(205, 214, 219, 0.7);
+    position: absolute;
+}
+#list_weapon li.choosen
+{
+    background-color: darkcyan;
+}
+#list_weapon li
+{
+    cursor: pointer;
+}

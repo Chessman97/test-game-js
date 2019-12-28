@@ -1,0 +1,15 @@
+{
+  "name": "game",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Game",
+  "main": "server.js",
+  "repository": {
+    "type": "git"
+  },
+  "author": "Ryan Edwards",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

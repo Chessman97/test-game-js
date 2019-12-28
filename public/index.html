@@ -1,0 +1,25 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="game.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <input class="in_game" id="pause" value="Пауза" type="button" onclick="pause()">
+        <input class="in_game" id="exit" value="Выход в меню" type="button" onclick="exit()">
+        <input class="preview" id="start" value="Начать игру" type="button">
+        <input class="preview" id="choose_weapon" value="Выбрать оружие" type="button">
+        <div class="display_none" id="list_weapon"></div>
+    </div>
+    
+    
+<canvas id="scene"></canvas>
+<canvas id="player"></canvas>
+<canvas id="enemy"></canvas>
+<canvas id="bullet"></canvas>
+<canvas id="text"></canvas>
+
+<!--<img src="images/background.jpg">-->
+</body>
+</html>
